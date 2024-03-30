@@ -6,7 +6,7 @@ interface NavProps {
 
 const Nav: FunctionComponent<NavProps> = ({ handleChange }) => {
   return (
-    <div>
+    <div id="nav">
       <button onClick={() => handleChange("main")}>Home</button>
       <button onClick={() => handleChange("about")}>About</button>
       <button onClick={() => handleChange("mission")}>My Mission</button>
